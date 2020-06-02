@@ -10,15 +10,15 @@
 
 # 配置项说明
 1. 配置文件：lstm.conf
-2. hidden_size: lstm层的维度 
-   max_seq_len: 最大句子长度
-   learning_rate: 学习率
-   bert_vocab: bert的词(字)库
-   pre_train_model: bert预训练的checkpoint
-   vocab_size: 字库的大小
-   train_file: 训练数据 文件路径
-   dev_file: 验证集文件路径
-   test_file: 测试集文件路径
+2. + hidden_size: lstm层的维度 
+   + max_seq_len: 最大句子长度
+   + learning_rate: 学习率
+   + bert_vocab: bert的词(字)库
+   + pre_train_model: bert预训练的checkpoint
+   + vocab_size: 字库的大小
+   + train_file: 训练数据 文件路径
+   + dev_file: 验证集文件路径
+   + test_file: 测试集文件路径
 
 # 数据
 用的是微软亚洲研究院的公开数据集，读者可自行下载更多的数据集
