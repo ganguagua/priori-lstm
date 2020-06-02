@@ -6,7 +6,19 @@
 1. 环境tensorflow2.0 python3.6；除此之外还有一些python包：numpy, collections
 1. 首先需要下载bert预训练模型，解压到当前目录
 2. controller.py是主脚本，参数维train或者predict
-3. 可参考run.sh
+3. 可参考run.sh编写启动脚本
+
+# 配置项说明
+1. 配置文件：lstm.conf
+2. hidden_size: lstm层的维度 
+   max_seq_len: 最大句子长度
+   learning_rate: 学习率
+   bert_vocab: bert的词(字)库
+   pre_train_model: bert预训练的checkpoint
+   vocab_size: 字库的大小
+   train_file: 训练数据 文件路径
+   dev_file: 验证集文件路径
+   test_file: 测试集文件路径
 
 # 数据
 用的是微软亚洲研究院的公开数据集，读者可自行下载更多的数据集
