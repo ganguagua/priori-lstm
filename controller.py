@@ -3,7 +3,6 @@ import data_feed
 import json
 import lstm
 import tensorflow as tf
-from keras.backend.tensorflow_backend import set_session
 import sys
 from copy import deepcopy
 

@@ -1,6 +1,5 @@
 
 import tensorflow as tf
-from keras.backend.tensorflow_backend import set_session
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import LSTM,Dense,Bidirectional
 import numpy as np
