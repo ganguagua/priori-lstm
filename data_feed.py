@@ -130,7 +130,6 @@ def file_based_convert_examples_to_features(examples, config, output_file="train
 
         assert len(label) == max_seq_len
         assert len(match_words_label) == max_seq_len
-        print(example["words"])
         assert len(input_ids) == max_seq_len
 
         features = collections.OrderedDict()
