@@ -4,9 +4,13 @@
 
 # 运行
 1. 环境tensorflow2.0 python3.6；除此之外还有一些python包：numpy, collections
-1. 首先需要下载bert预训练模型，解压到当前目录
-2. controller.py是主脚本，参数维train或者predict
-3. 可参考run.sh编写启动脚本
+2. 直接运行run.sh即可开始训练
+3. 如果bert预训练模型下载缓慢，可以自行从其他地方下载
+4. bert模型下载好后，运行controller.py即可
+```
+python controller.py train #训练
+python controller.py predict #测试
+```
 
 # 配置项说明
 1. 配置文件：lstm.conf
