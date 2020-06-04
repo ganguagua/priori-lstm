@@ -5,8 +5,8 @@
 # 运行
 1. 环境tensorflow2.0 python3.6；除此之外还有一些python包：numpy, collections
 2. 直接运行run.sh即可开始训练
-3. 如果bert预训练模型下载缓慢，可以自行从其他地方下载
-4. bert模型下载好后，运行controller.py即可
+3. 超参在lstm.conf中修改，通过tensorboard --logdir ./tf.log/  --bind_all查看训练过程
+4. 如果bert预训练模型下载缓慢，可以自行从其他地方下载，bert模型下载好后，运行controller.py即可
 ```
 python controller.py train #训练
 python controller.py predict #测试
